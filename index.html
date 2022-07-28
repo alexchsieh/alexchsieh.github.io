@@ -5,10 +5,40 @@
     <meta charset="utf-8" />
     <title>Alex Hsieh</title>
     <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            font-size: 1.25em;
+        }
+
+        p {
+            width: 80%;
+            font-size: 1.5em;
+        }
+
+        li {
+            width: 80%;
+            font-size: 1.5em;
+            margin: 30px 0px;
+        }
+
+        .hr1 {
+            margin-top: 0%;
+            border: 0;
+            width: 80%;
+            height: 3px;
+            background: #095484;
+            background-image: linear-gradient(to right, #ccc, #095484, #ccc);
+        }
+
         .pfp img {
             display: block;
-            height: 200px;
-            width: 200px;
+            height: 420px;
+            width: 420px;
+            border-style: solid;
+            border-width: 3px;
+            border-color: green;
             border-radius: 50%;
             margin-left: auto;
             margin-right: auto;
@@ -16,8 +46,21 @@
 
         h1 {
             text-align: center;
+            font-size: 5.5em;
             margin-top: 0%;
             margin-bottom: 0%;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-top: 1%;
+        }
+
+        h3 {
+            margin-bottom: 0%;
+            font-size: 2.5em;
+            font-family: Copperplate, Copperplate Gothic Light, fantasy
         }
 
         .logo {
@@ -68,21 +111,23 @@
         </div>
     </div>
 
-    <h2 id="major">CS@UCR</h2>
+    <h2 id="major">Computer Science @ UCR</h2>
 
     <h3 id="about">About Me</h3>
+    <hr class="hr1" align="left" />
     <p>Hi, I'm Alex Hsieh. I'm a 3rd Year Computer Science Major at the University of California, Riverside! My hobbies
         include coding, watching media, and playing popular multi-player computer games.</p>
 
     <h3 id="experience">Work Experience</h3>
+    <hr class="hr1" align="left" />
     <ul>
         <li>Exodus Studios LLC (Jun. 2020 -- Aug. 2021)
             <br>
-            System Administrator
+            <i>System Administrator</i>
         </li>
         <ul>
             <li>Worked directly with the CEO of this startup to focus on server development within existing sandbox
-                games by creating and managing the server resulting in \$10K of sales in 2 months.</li>
+                games by creating and managing the server resulting in $10K of sales in 2 months.</li>
             <li>Fundamental to formulating the company's game vision, goals, and objectives by working with 6
                 contractors (graphic design, software design, manager) to develop administration skills.</li>
             <li>Managed and Administrated over the system and the social presence of the game with Discord, turning it
@@ -91,7 +136,7 @@
         </ul>
         <li>Video Game Play Tester (Aug. 2021 -- Present)
             <br>
-            Anthos Capital
+            <i>Anthos Capital</i>
         </li>
         <ul>
             <li>Worked directly with upcoming game developers in the earliest stages of their game projects to help
@@ -102,7 +147,7 @@
         </ul>
         <li>ARC Tutoring (September. 2022 -- Present)
             <br>
-            University of California, Riverside
+            <i>University of California, Riverside</i>
         </li>
         <ul>
             <li>Worked closely with students to better their education.</li>
@@ -110,12 +155,27 @@
     </ul>
 
     <h3 id="education">Education</h3>
-    <ul>
-        <li>Gabrielino High School (2016-2020)</li>
-        <li>University of California, Riverside (2020-Present)</li>
-    </ul>
+    <hr class="hr1" align="left" />
+    <table style="width: 80%">
+        <tr>
+            <td>University of California, Riverside</td>
+            <td>BS Computer Science</td>
+            <td>Oct. 2020 - Jun. 2024</td>
+        </tr>
+        <tr>
+            <td>Gabrielino High School</td>
+            <td>High School Diploma</td>
+            <td>Aug. 2016 - Jun. 2020</td>
+        </tr>
+        <tr>
+            <td>San Gabriel Christian School</td>
+            <td>Middle School Diploma</td>
+            <td>Aug. 2007 - Jun. 2016</td>
+        </tr>
+    </table>
 
     <h3 id="coursework">Coursework</h3>
+    <hr class="hr1" align="left" />
     <ul>
         <li>Software Construction</li>
         <li>Machine Organization and Assembly</li>
@@ -125,9 +185,11 @@
     </ul>
 
     <h3 id="skills">Skills</h3>
+    <hr class="hr1" align="left" />
     <p>C++, Java, SQL</p>
 
     <h3 id="projects">Projects</h3>
+    <hr class="hr1" align="left" />
     <ul>
         <li><a href="https://github.com/alexchsieh/Highlander-Battleship">Highlander Battleship</a></li>
         <ul>
