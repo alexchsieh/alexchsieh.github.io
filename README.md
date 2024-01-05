@@ -6,9 +6,7 @@ Had heavy assistance / inspiration from portfolio websites & GPT with the format
 
 to access my github hosted website
 
-```sh
-alexchsieh.github.io
-```
+[portfolio](alexchsieh.github.io)
 
 ## Copy my template
 
